@@ -1,0 +1,8 @@
+{
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "extends": ["@seequent/tslint-config-base", "tslint-config-prettier"],
+    "rules": {
+        "prettier": true,
+        "function-name": false
+    }
+}
