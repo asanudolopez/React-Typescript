@@ -6,3 +6,11 @@ export interface Iframe {
 export interface IframePageProps {
     iframes: Iframe[];
 }
+
+export interface IframePageState {
+    iframes: Iframe[];
+    url: string;
+    urlError: boolean;
+    props: string;
+    propsError: boolean;
+}
