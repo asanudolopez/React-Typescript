@@ -89,7 +89,13 @@ class IframePage extends React.Component<IframePageProps, IframePageState> {
                     </form>
                 </Grid>
                 <Grid item className="Iframe__container" xs>
-                    <Grid container justify="space-evenly" alignItems="center" style={{ flex: 1 }}>
+                    <Grid
+                        container
+                        justify="space-evenly"
+                        alignItems="center"
+                        style={{ flex: 1 }}
+                        spacing={8}
+                    >
                         {iframes.map(({ url, props = {} }: Iframe, i) => (
                             <Grid item key={`${url} - ${i}`} className="Iframe__iframe">
                                 <iframe
