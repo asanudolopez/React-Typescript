@@ -77,12 +77,7 @@ class IframePage extends React.Component<IframePageProps, IframePageState> {
                             </Grid>
                         </Grid>
                         <Grid item>
-                            <Button
-                                onClick={this.handleSubmit}
-                                size="large"
-                                color="primary"
-                                variant="contained"
-                            >
+                            <Button onClick={this.handleSubmit} size="large" color="primary">
                                 Add
                             </Button>
                         </Grid>
