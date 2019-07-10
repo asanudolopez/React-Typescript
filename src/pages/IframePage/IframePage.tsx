@@ -3,7 +3,8 @@ import './IframePage.css';
 import { Iframe, IframePageProps, IframePageState } from './IframePage.types';
 import { Grid, Button, TextField } from '@material-ui/core';
 
-const URL_REGEXP = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+// const URL_REGEXP = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+const URL_REGEXP = /foo/;
 
 class IframePage extends React.Component<IframePageProps, IframePageState> {
     constructor(props: IframePageProps) {
