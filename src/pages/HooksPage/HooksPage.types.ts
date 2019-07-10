@@ -1,1 +1,3 @@
-export interface HooksPageProps {}
+export interface HooksPageProps {
+    testProp: boolean;
+}
