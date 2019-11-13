@@ -5,7 +5,7 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import { theme } from './styles';
 import './index.css';
 import { App } from './App';
-import { IframePage, HooksPage } from './pages';
+import { IframePage, HooksPage, RoutesPage } from './pages';
 import { createBrowserHistory } from 'history';
 
 const history = createBrowserHistory();
@@ -18,6 +18,7 @@ const Root = () => (
                     <Route exact path="/" component={IframePage} />
                     <Route exact path="/iframes" component={IframePage} />
                     <Route exact path="/hooks" component={HooksPage} />
+                    <Route exact path="/routes" component={RoutesPage} />
                 </Switch>
             </App>
         </Router>
